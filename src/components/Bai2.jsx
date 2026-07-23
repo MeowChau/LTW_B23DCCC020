@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Book, Clock, Target, Plus, Trash2, Edit, PieChart as PieChartIcon } from 'lucide-react';
+import { ArrowLeft, Book, Clock, Target, Plus, Trash2, PieChart as PieChartIcon } from 'lucide-react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const defaultSubjects = [
